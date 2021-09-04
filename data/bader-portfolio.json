@@ -1,0 +1,63 @@
+{
+    "media":[
+
+        {
+            "facebooklink": "https://www.facebook.com/bader.daka",
+            "facebookicon":"fa-facebook"
+        },
+        {
+            "linkedinlink":"https://www.linkedin.com/in/bader-daka/",
+            "linkedinicon":"fa-linkedin"
+        },
+        {
+
+            "githublink":"https://github.com/BaderDak0",
+            "giticon":"fa-github"
+        }
+
+    ],
+
+    "aboutme":[
+
+        {
+            "list":"I am a responsible."
+        },
+        
+        {
+            "list":"hard working person."
+        },
+        {
+            "list":" with high working ethics and excellent interpersonal skills."
+        },
+        {
+            "list":" Keeping a neat schedule and always stick to it."
+        },
+        {
+
+            "list":"always trying to innovate new ideas into successful projects."
+        }
+
+
+
+
+    ]
+   
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
