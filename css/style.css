@@ -186,7 +186,7 @@ figure.effect-oscar:hover p {
     -webkit-transform: scale(1);
     transform: scale(1);
     color: #fff;
-    +++++++
+
 }
 
 figure.effect-oscar:hover figcaption {
@@ -306,10 +306,7 @@ p {
     float: initial;
 }
 
-.navStyle ul li:first-child {
-    /*margin:0px;*/
-    ;
-}
+
 
 .navStyle ul li:last-child {
     margin: 0 0 0 23px;
@@ -532,7 +529,6 @@ a.read_more:hover {
     padding: 40px 0 40px;
 }
 
-.service_section {}
 
 .service_block {
     text-align: center;
@@ -623,7 +619,7 @@ a.read_more:hover {
 }
 
 .service-list-col1 i {
-    display: ;
+    /* display: ; */
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -1051,6 +1047,14 @@ img {
 }
 
 .team_box ul li a.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.linkedin a:hover {
+    color: #3b5998;
+}
+
+.github a:hover {
     color: #3b5998;
 }
 
@@ -1820,6 +1824,15 @@ img {
     margin-top: -30px;
 }
 
+.i-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
 #arrow_right {
     top: 50%;
     height: 60px;
@@ -1889,7 +1902,6 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -2002,14 +2014,13 @@ div.mc-image {
 
     #aboutUs h3 {
         font-size: 26px;
-        line-height: 22px;
     }
 
     .service_block h3 {
         font-size: 16px;
     }
 
-    service_block p {
+    .service_block p {
         font-size: 14px;
         margin: 0px;
         margin-bottom: 20px;
@@ -2027,7 +2038,7 @@ div.mc-image {
         padding: 40px 0;
     }
 
-    
+
     #clients {
         padding: 40px 0;
     }
@@ -2039,7 +2050,7 @@ div.mc-image {
         display: inline-block;
     }
 
-    .social_links li {}
+
 
     .contact_section {
         margin: 0;
@@ -2136,4 +2147,55 @@ img.img.img-circle.lt-box {
     float: left;
     width: 60px;
     height: auto;
+}
+
+.skiilsIcons {
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.nodeJs {
+    background-image: url("../img/node-js-brands1.svg");
+
+}
+
+.react-icon {
+    background-image: url("../img/react.svg");
+
+}
+
+.html-icon {
+    background-image: url("../img/html.svg");
+
+}
+
+.css-icon {
+    background-image: url("../img/css.svg");
+
+}
+
+.php-icon {
+    background-image: url("../img/php.svg");
+
+}
+
+.DB-icon {
+    background-image: url("../img/DB.svg");
+
+}
+
+.mongo{
+    background-image: url("../img/mongodb.svg");
+}
+
+.python-icon {
+    background-image: url("../img/python.svg");
+
+}
+
+.bash-icon {
+    background-image: url("../img/bash.svg");
+
 }

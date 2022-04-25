@@ -32,9 +32,7 @@ $(document).ready(function () {
     $( "#CV" ).click(function() {
         window.open('contact/BaderDakaCV.pdf', '_blank');
       });
-
-
-
+   
 
 
 });
