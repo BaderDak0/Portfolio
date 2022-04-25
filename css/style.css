@@ -1403,10 +1403,8 @@ img {
 }
 
 
-
-/* Portfolio Filters */
-
-#filters {
+/* CV Button */
+.CVfilters{
     margin-top: 10px;
     margin-bottom: 40px;
     text-align: center;
@@ -1416,16 +1414,13 @@ img {
     position: relative;
 }
 
-#filters ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
 
-#filters ul li a {
+
+.CVfilters  a {
     display: block;
 }
 
-#filters ul li a h5 {
+.CVfilters  a h5 {
     background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
     display: inline-block;
@@ -1440,13 +1435,14 @@ img {
     color: #7C7C7C;
 }
 
-#filters ul li a:hover h5,
-#filters ul li a.active h5 {
+.CVfilters  a:hover h5,
+.CVfilters  a.active h5 {
     background: #FEB11E;
     color: #FFFFFF;
     text-decoration: none;
     border: #FEB11E solid 1px;
 }
+
 
 .section-title h2 {
     color: #222222;
@@ -2198,4 +2194,9 @@ img.img.img-circle.lt-box {
 .bash-icon {
     background-image: url("../img/bash.svg");
 
+}
+
+.contactRow{
+    display: flex;
+    flex-direction: column;
 }

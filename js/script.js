@@ -29,10 +29,4 @@ $(document).ready(function () {
     updateicon();
 
     
-    $( "#CV" ).click(function() {
-        window.open('contact/BaderDakaCV.pdf', '_blank');
-      });
-   
-
-
 });
