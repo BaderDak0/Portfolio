@@ -92,7 +92,7 @@
 .project span {
     visibility: hidden;
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
@@ -102,7 +102,7 @@
     width: 100%;
     background: rgba(23, 26, 29, 0.85);
     height: 100%;
-
+    padding-bottom: 15%;
 }
 
 .project:hover div {
